@@ -1,0 +1,93 @@
+.header {
+    font-size: 20px;
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.logo {
+    margin-right: 50px;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+ul > li {
+    margin-right: 10px;
+}
+.box {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+}
+.aside {
+    border-right: 1px solid #000;
+    padding-right: 20px;
+}
+.post {
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.footer{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.logo{
+    color: lightgreen;
+    background-color:rebeccapurple;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal
+}
+.ul{
+    color:rebeccapurple;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal
+}
+.Silka{
+    color:rebeccapurple;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal
+}
+.s{
+    color:rebeccapurple;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.h{
+    text-transform:uppercase;
+    letter-spacing:0.01em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.D{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gg{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
