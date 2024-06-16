@@ -17,7 +17,10 @@ ul {
     padding-left: 0;
     margin: 0;
 }
-ul > li {
+ul > li{
+    margin-right: 30px;
+}
+li:not(:last-child){
     margin-right: 30px;
 }
 .box {
@@ -48,8 +51,7 @@ ul > li {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-right:20px;
-    padding-left:20px;
+    padding: 0px 20px;
 }
 .logo{
     color: lightgreen;
@@ -76,8 +78,10 @@ ul > li {
     font-family: "Roboto", sans-serif;
     font-style: normal
 }
-.s{
-    color:rebeccapurple;
+.link{
+    background-color:rebeccapurple;
+    color:white;
+    padding: 8px 15px;
     font-weight: 700;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -100,8 +104,14 @@ ul > li {
     font-weight: 400;
     font-style: normal;
 }
+
 .section{
     background-color: lavender;
+    padding: 5px 20px;
+    margin:20px
+}
+.section1{
+    background-color: moccasin;
     padding: 5px 20px;
     margin:20px
 }
