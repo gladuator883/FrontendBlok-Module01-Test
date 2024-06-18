@@ -16,7 +16,15 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    grid-auto-flow: column;
+    gap: 5px 0px;
 }
+.div2{
+    display: flex;
+    gap: 25px 5px;
+    margin-top: 3px;
+}
+
 ul > li{
     margin-right: 30px;
 }
@@ -82,10 +90,16 @@ li:not(:last-child){
     background-color:rebeccapurple;
     color:white;
     padding: 8px 15px;
+    margin-top: 10px;
     font-weight: 700;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: end;
+    flex-basis: 30%;
 }
 .h{
     text-transform:uppercase;
@@ -108,10 +122,15 @@ li:not(:last-child){
 .section{
     background-color: lavender;
     padding: 5px 20px;
-    margin:20px
+    margin:5px;
+    flex-basis: 30%;
 }
 .section1{
     background-color: moccasin;
     padding: 5px 20px;
     margin:20px
+}
+.results{
+    display: flex;
+    gap: 1px;
 }
